@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3094923953280734910}
   - component: {fileID: 5185955700233956406}
   - component: {fileID: -3444032850318966366}
+  - component: {fileID: 7901358787906917984}
   m_Layer: 0
   m_Name: coin
   m_TagString: Untagged
@@ -99,7 +100,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.3100001
+  m_Radius: 0.7
 --- !u!114 &-3444032850318966366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,3 +114,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slotButton: {fileID: 4445373036807817125, guid: 09485a88771d9584dbe8076f237a5836, type: 3}
+--- !u!50 &7901358787906917984
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3094923953280734911}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

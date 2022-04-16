@@ -8,7 +8,7 @@ public class Pickup: MonoBehaviour
     public GameObject slotButton;
 
     private void Start() {
-        inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
+        inventory = GameObject.FindWithTag("Player").GetComponent<Inventory>();
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
