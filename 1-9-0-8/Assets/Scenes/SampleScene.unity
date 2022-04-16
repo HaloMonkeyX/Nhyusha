@@ -716,7 +716,7 @@ GameObject:
   - component: {fileID: 205202070}
   - component: {fileID: 205202069}
   m_Layer: 0
-  m_Name: juj (1)
+  m_Name: right_leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -759,8 +759,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1052271911
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9e95a3ca158355247807108ff0e0c8ce, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -780,12 +780,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 205202068}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 41.1172, y: 0.9825, z: 0}
-  m_LocalScale: {x: -0.5133638, y: 0.5224, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.8759, y: 5.2709, z: 4537.4624}
+  m_LocalScale: {x: -0.41356584, y: 0.43129346, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 319378190}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &255707572
 GameObject:
@@ -1132,6 +1132,43 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &319378189
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 319378190}
+  m_Layer: 0
+  m_Name: Crab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &319378190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319378189}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.03, y: -9.59, z: -4537.4624}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 680910865}
+  - {fileID: 205202070}
+  - {fileID: 1608454778}
+  - {fileID: 1575814839}
+  - {fileID: 642728836}
+  - {fileID: 1806281788}
+  - {fileID: 547965398}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &360559958
 GameObject:
   m_ObjectHideFlags: 0
@@ -1422,7 +1459,7 @@ GameObject:
   - component: {fileID: 547965398}
   - component: {fileID: 547965397}
   m_Layer: 0
-  m_Name: bub
+  m_Name: crabs_hair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1465,8 +1502,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1052271911
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9f36c22eec1f6474491ff2d56997ca44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1486,12 +1523,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 547965396}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.6991, y: 4.5781, z: 0}
-  m_LocalScale: {x: 0.9289416, y: 0.9275213, z: 1.7755}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.928, y: 8.2395, z: 4537.4624}
+  m_LocalScale: {x: 0.7483553, y: 0.7657616, z: 1.7755}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_Father: {fileID: 319378190}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &642728834
 GameObject:
@@ -1504,7 +1541,7 @@ GameObject:
   - component: {fileID: 642728836}
   - component: {fileID: 642728835}
   m_Layer: 0
-  m_Name: uju (1)
+  m_Name: left_arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1547,8 +1584,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1052271911
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c10c5b7ef2bc80c44a2f9a9b6741d4a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1569,11 +1606,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 642728834}
   m_LocalRotation: {x: -0, y: -0, z: 0.799914, w: 0.60011476}
-  m_LocalPosition: {x: 36.0625, y: 2.5405, z: 0}
-  m_LocalScale: {x: 0.5224, y: -0.580595, z: 1}
+  m_LocalPosition: {x: 7.804, y: 6.5572, z: 4537.4624}
+  m_LocalScale: {x: 0.43129346, y: -0.46772733, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 319378190}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 106.244}
 --- !u!1 &680910863
 GameObject:
@@ -1586,7 +1623,7 @@ GameObject:
   - component: {fileID: 680910865}
   - component: {fileID: 680910864}
   m_Layer: 0
-  m_Name: juj
+  m_Name: left_leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1629,8 +1666,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1052271911
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9e95a3ca158355247807108ff0e0c8ce, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1650,12 +1687,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 680910863}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.7197, y: 0.8343, z: 0}
-  m_LocalScale: {x: 0.5232, y: 0.5224, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.6375, y: 4.79, z: 4537.4624}
+  m_LocalScale: {x: 0.4214899, y: 0.43129346, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 319378190}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &729061120
 GameObject:
@@ -2855,7 +2892,7 @@ GameObject:
   - component: {fileID: 1575814839}
   - component: {fileID: 1575814838}
   m_Layer: 0
-  m_Name: uju
+  m_Name: right_arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2898,8 +2935,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1052271911
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c10c5b7ef2bc80c44a2f9a9b6741d4a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2920,11 +2957,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1575814837}
   m_LocalRotation: {x: -0, y: -0, z: 0.799914, w: 0.60011476}
-  m_LocalPosition: {x: 41.2417, y: 2.5405, z: 0}
-  m_LocalScale: {x: 0.5224, y: 0.5232, z: 1}
+  m_LocalPosition: {x: 11.9762, y: 6.5572, z: 4537.4624}
+  m_LocalScale: {x: 0.43129346, y: 0.4214899, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 319378190}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 106.244}
 --- !u!1 &1608454776
 GameObject:
@@ -2937,7 +2974,7 @@ GameObject:
   - component: {fileID: 1608454778}
   - component: {fileID: 1608454777}
   m_Layer: 0
-  m_Name: ukur (2)
+  m_Name: crab_body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2980,8 +3017,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1052271911
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4893ab262e9b7044cb0b9a390e66264c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3001,12 +3038,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608454776}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.8295, y: 1.8366, z: 0}
-  m_LocalScale: {x: 1.448298, y: 0.8206382, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.033, y: 5.976, z: 4537.4624}
+  m_LocalScale: {x: 1.1667489, y: 0.6775189, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 319378190}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1624213538
 GameObject:
@@ -3234,7 +3271,7 @@ GameObject:
   - component: {fileID: 1806281788}
   - component: {fileID: 1806281787}
   m_Layer: 0
-  m_Name: bulba
+  m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3277,8 +3314,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1052271911
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 91470a8a97d28fa4aba6ad2fdef090c6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3298,12 +3335,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1806281786}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.8104, y: 3.654, z: 0}
-  m_LocalScale: {x: 0.90330476, y: 0.90192366, z: 1.7265}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.0176, y: 7.6548, z: 4537.4624}
+  m_LocalScale: {x: 0.7277023, y: 0.7446282, z: 1.7265}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_Father: {fileID: 319378190}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1814798194
 GameObject:
@@ -3719,7 +3756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5988178694164488668, guid: c4bcb10ded49c6e4889c595aebd2110a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.216898
+      value: -17.46
       objectReference: {fileID: 0}
     - target: {fileID: 5988178694164488668, guid: c4bcb10ded49c6e4889c595aebd2110a, type: 3}
       propertyPath: m_LocalPosition.y
